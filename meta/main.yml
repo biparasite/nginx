@@ -1,0 +1,24 @@
+galaxy_info:
+  role_name: nginx
+  author: user
+  company: user inc.
+  description: Role for installation and managing nginx server
+
+  license: MIT
+
+  min_ansible_version: "2.11"
+
+  platforms:
+    - name: Debian
+      versions:
+        - bullseye
+        - buster
+        - stretch
+        - jessie
+
+  galaxy_tags:
+    - web
+    - nginx
+    - http
+
+dependencies: []
